@@ -1,0 +1,14 @@
+.container {
+  width: 300px;
+  display: flex;
+}
+.image {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px;
+}
+.discount {
+  color: red;
+}
