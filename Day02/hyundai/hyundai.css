@@ -1,7 +1,7 @@
 .car {
   background-color: #f7f8fb;
-  width: 400px;
-  padding: 14px 20px 14px 20px;
+  width: 350px;
+  padding: 40px;
 }
 .car > h3 {
   text-align: center;
@@ -19,24 +19,58 @@
   object-fit: contain;
 }
 
-.info {
+.car > .info {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   margin-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #cccccc;
 }
 
-.info > .option {
+.car > .info > .option {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.info > .option > .title {
+.car > .info > .option > .title {
   font-weight: 700;
 }
-.info > .option > .value {
+.car > .info > .option > .value {
   color: #666666;
+  font-weight: 700;
+}
+
+.car > .interaction {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.car > .interaction > .make {
+  color: white;
+  font-weight: 700;
+  background-color: #002c5f;
+  border: none;
+  padding: 14px 26px 14px 26px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.car > .interaction > .navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.car > .interaction > .navi > .circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background-color: #007fa8;
 }
