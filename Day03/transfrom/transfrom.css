@@ -1,0 +1,21 @@
+button {
+  border-radius: 360px;
+  padding: 10px 18px;
+  border: none;
+  background-color: #00a5b9;
+  color: white;
+  transition: all;
+}
+
+button > i {
+  color: #fdcd00;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button > span {
+  color: white;
+  font-size: 700;
+}
