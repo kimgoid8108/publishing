@@ -1,0 +1,54 @@
+.menu {
+  padding: 0px 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu > .coffee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f0f0;
+}
+
+.menu > .coffee > picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu > .coffee > .name {
+  font-weight: 400;
+  text-align: center;
+  padding-top: 32px;
+  font-size: large;
+}
+
+.menu > .coffee > picture {
+  transition: all 0.3s;
+}
+
+picture:hover {
+  transform: scale(1.05);
+}
+
+.fourth {
+  position: relative;
+}
+
+.coffee > .info {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.coffee:hover > .info {
+}

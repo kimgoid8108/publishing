@@ -1,0 +1,126 @@
+section {
+  /* 행렬 <= 엑셀판, 바둑판, 체스판 */
+  /* 자식을 엑셀판, 바둑판화 하기 */
+  display: grid;
+  /* repeat (몇줄, 1fr) */
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.box {
+  width: 20vw;
+  height: 10vw;
+  position: relative;
+}
+
+.box > .name {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-weight: 600;
+  color: white;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 500;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.box > .copy-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.box:hover .copy-btn {
+  opacity: 1;
+}
+
+.puff {
+  background-color: #ff9ff3;
+}
+
+.yellow {
+  background-color: #feca57;
+}
+
+.red {
+  background-color: #ff6b6b;
+}
+
+.megaman {
+  background-color: #48dbfb;
+}
+
+.green {
+  background-color: #1dd1a1;
+}
+
+.pink {
+  background-color: #f368e0;
+}
+
+.skin {
+  background-color: #ff9f43;
+}
+.amour {
+  background-color: #ee5253;
+}
+
+.cyanite {
+  background-color: #0abde3;
+}
+.meadow {
+  background-color: #10ac84;
+}
+
+.dust {
+  background-color: #00d2d3;
+}
+
+.blue {
+  background-color: #54a0ff;
+}
+
+.purple {
+  background-color: #5f27cd;
+}
+
+.ballerina {
+  background-color: #c8d6e5;
+}
+
+.towl {
+  background-color: #576574;
+}
+
+.velvet {
+  background-color: #01a3a4;
+}
+
+.france {
+  background-color: #2e86de;
+}
+
+.bell {
+  background-color: #341f97;
+}
+
+.petrel {
+  background-color: #8395a7;
+}
+
+.primer {
+  background-color: #222f3e;
+}
