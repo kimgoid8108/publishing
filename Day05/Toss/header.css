@@ -1,0 +1,66 @@
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.sel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sel > li {
+  padding: 0px 12px;
+  font-size: 15px;
+  line-height: 80px;
+  margin: 0px 12px;
+  text-align: center;
+}
+
+.sel > button {
+  height: 40px;
+  border: 1px solid rgba(229, 229, 229, 0.8);
+  background-color: transparent;
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 0px 14px 0px 18px;
+  margin: 0px 28px 0px 14px;
+}
+
+nav > .icon {
+  display: inline-block;
+  height: 80px;
+  line-height: 20px;
+  vertical-align: middle;
+  position: relative;
+  width: 30px;
+}
+
+.icon {
+  background-image: url(icon_eng_w.svg);
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

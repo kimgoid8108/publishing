@@ -1,22 +1,84 @@
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
 section {
   height: 100vh;
 }
 
 .first {
-  .first {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(casey-horner-75_s8iWHKLs-unsplash.jpg);
+  background-position: 50% 50%;
+}
 
-  .bg-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    z-index: -1;
-  }
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.contents {
+  /* 넓이 높이 부모 따라감 */
+  width: 100%;
+  height: 100%;
+  /* 가운데 컨테이닝 */
+  max-width: 1200px;
+  margin: 0 auto;
+  /*  자식들 중앙화 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Paperozi";
+}
+
+.contents > h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.contents > h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #757575;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.last > h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+}
+
+.second > .contents {
+  padding: 100px 0;
+}
+
+.second > .contents > h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.second > .contents > h3 > .special {
+  color: #1f1f1f;
 }
