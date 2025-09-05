@@ -1,0 +1,49 @@
+section {
+  width: 100%;
+  height: 100%;
+}
+
+.first {
+  width: 100%;
+  max-width: 1200px;
+  height: 884px;
+  display: flex;
+  background-image: url("배경.png");
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.first > .photoBG {
+  position: relative;
+  width: 80%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.first > .contents > h1 {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 700;
+
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.first > .yellowBG {
+  width: 100%;
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffef6b;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
