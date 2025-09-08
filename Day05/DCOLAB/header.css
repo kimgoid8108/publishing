@@ -27,16 +27,22 @@ nav {
 nav > .gnb {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 40px;
   font-weight: bold;
   font-size: 15px;
-  padding: 20px 40px;
   color: #555;
   cursor: pointer;
-  transition: all 0.5s;
 }
 
-nav > .gnb:hover {
+nav > .gnb > li {
+  list-style: none;
+  padding: 0 10px;
+
+  transition: all 0.3s;
+  line-height: 60px;
+}
+
+nav > .gnb > li:hover {
   background-color: black;
   color: white;
 }
