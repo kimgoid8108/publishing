@@ -1,0 +1,46 @@
+section {
+  width: 100%;
+  height: 100%;
+}
+
+section > .contents {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.contents > article {
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  line-height: 30px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.contents > article:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  section > .contents {
+    max-width: 400px;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .contents > article:hover {
+    background-color: #f8f8f8;
+    color: black;
+  }
+}
