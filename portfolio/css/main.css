@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yangjin";
+  src: url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Juache";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+main {
+  width: 100%;
+
+  padding-top: 80px;
+}
+
+.page__background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  font-weight: 300;
+  font-family: "Paperozi";
+}
+
+.page__background > .page__img {
+  width: 100%;
+  max-width: 2000px;
+  height: 800px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
