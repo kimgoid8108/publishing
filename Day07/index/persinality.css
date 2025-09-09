@@ -1,0 +1,22 @@
+.personality {
+  width: 100%;
+
+  padding: 120px 240px;
+  font-family: "Paperozi";
+  background-color: black;
+}
+
+.personality > .personality__title {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.personality > .personality-intro > .personal {
+  line-height: 50px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
