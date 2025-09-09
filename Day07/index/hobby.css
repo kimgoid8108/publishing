@@ -29,7 +29,8 @@
   background-image: url(KakaoTalk_20250909_120453842_01.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: 40px;
+
+  margin: 0 auto;
   padding: 20px 20px;
   line-height: 20px;
   border: 2px solid white;
@@ -42,7 +43,7 @@
   background-image: url(KakaoTalk_20250909_120453842.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  margin-top: 40px;
+  margin: 0 auto;
   padding: 20px 20px;
   color: white;
   line-height: 20px;
@@ -56,7 +57,7 @@
   background-image: url(KakaoTalk_20250909_120453842_02.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  margin-top: 40px;
+  margin: 0 auto;
   padding: 20px 20px;
   color: white;
   line-height: 20px;
@@ -82,4 +83,46 @@
   padding: 20px;
   font-size: 18px;
   line-height: 1.6;
+  display: block;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .hobby {
+    padding: 80px 20px;
+  }
+
+  .hobby__title {
+    font-size: 32px;
+  }
+
+  .hobby-intro > .hobby-list {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* 이미지 박스 반응형 */
+  .first__photo-box,
+  .second__photo-box,
+  .third__photo-box {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  /* 지도 레이아웃 */
+  .map-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .map-box {
+    width: 100%;
+
+    min-height: 300px;
+  }
+
+  .map-description {
+    margin-top: 20px;
+  }
 }

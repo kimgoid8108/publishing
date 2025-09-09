@@ -20,3 +20,18 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+  .personality {
+    padding: 80px 20px;
+  }
+
+  .personality__title {
+    font-size: 32px;
+  }
+
+  .personality-intro > .personal {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
