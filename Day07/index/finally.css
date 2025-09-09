@@ -71,3 +71,18 @@
     margin: 20px auto 0;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .finally__title {
+    font-size: 24px;
+  }
+
+  .finally-intro {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .information section {
+    font-size: 12px;
+  }
+}

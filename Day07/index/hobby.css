@@ -137,3 +137,22 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .hobby__title {
+    font-size: 24px;
+  }
+
+  .hobby-intro {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .contents {
+    gap: 10px;
+  }
+
+  .map-box iframe {
+    height: 250px;
+  }
+}

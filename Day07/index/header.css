@@ -91,3 +91,22 @@ header {
     color: black;
   }
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 50px;
+  }
+
+  .page__topbar {
+    height: 50px;
+    padding: 0 10px;
+  }
+  .page__topbar > a {
+    font-size: 14px;
+  }
+  .page__menu {
+    font-size: 10px;
+    gap: 5px;
+    padding-top: 20px;
+  }
+}
