@@ -55,41 +55,39 @@ header {
   color: white;
 }
 
-/* 기존 header.css 내용 끝에 추가 */
 @media screen and (max-width: 768px) {
-  /* 헤더 높이 조정 */
   header {
     height: 60px;
+    position: fixed;
   }
 
-  /* 탑바 크기 및 패딩 */
   .page__topbar {
+    display: flex;
     height: 60px;
-    padding: 0 10px;
+    padding: 0px 30px;
     gap: 10px;
   }
 
-  /* 로고 크기 조정 */
   .page__topbar > a {
     font-size: 18px;
     margin-left: 10px;
+    display: flex;
+    margin: 0 auto;
   }
 
-  /* 메뉴 글자 크기 및 간격 줄이기 */
   .page__menu {
     font-size: 12px;
     gap: 10px;
     margin-right: 10px;
+    padding-top: 25px;
   }
 
-  /* 메뉴 li 패딩 줄이기 */
   .page__menu > li {
-    padding: 0 10px;
+    padding: 0px 10px;
   }
 
-  /* 메뉴 hover 유지 */
   .page__menu > li:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
 }

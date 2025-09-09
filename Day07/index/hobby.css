@@ -101,16 +101,28 @@
     line-height: 24px;
   }
 
-  /* 이미지 박스 반응형 */
-  .first__photo-box,
-  .second__photo-box,
+  .first__photo-box {
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+    margin-bottom: 20px;
+  }
+
+  .second__photo-box {
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
   .third__photo-box {
     width: 100%;
     height: auto;
-    aspect-ratio: 16/9;
+    padding-top: 50%;
+    margin-bottom: 20px;
   }
 
-  /* 지도 레이아웃 */
   .map-wrapper {
     flex-direction: column;
     gap: 20px;
@@ -118,8 +130,7 @@
 
   .map-box {
     width: 100%;
-
-    min-height: 300px;
+    margin-left: 15px;
   }
 
   .map-description {
