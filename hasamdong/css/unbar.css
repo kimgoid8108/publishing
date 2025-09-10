@@ -1,0 +1,38 @@
+.under__menu {
+  z-index: 1001;
+  max-width: 1700px;
+  right: 40px;
+  top: 90%;
+
+  transform: translateY(1800%);
+  z-index: 1000;
+}
+
+.under__menu > .under {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.under__menu > ul > li {
+  display: flex;
+  width: 140px;
+  height: 42px;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  top: 10px;
+  right: 40%;
+  border-radius: 35px;
+  background-color: #d32f2f;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Wanju";
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.under__menu > .under > .brand {
+  cursor: pointer;
+}

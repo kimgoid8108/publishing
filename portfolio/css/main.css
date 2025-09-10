@@ -46,7 +46,7 @@ main {
 
   align-items: center;
   justify-content: center;
-  background-image: url(background.jpg);
+  background-image: url(../image/background.jpg);
   background-size: cover;
   background-position: center;
   margin: 0 auto;

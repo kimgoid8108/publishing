@@ -26,7 +26,7 @@
   width: 100%;
   max-width: 1080px;
   height: 700px;
-  background-image: url(KakaoTalk_20250909_120453842_01.jpg);
+  background-image: url(../image/photo_first.jpg);
   background-size: cover;
   background-position: center;
 
@@ -40,7 +40,7 @@
   width: 100%;
   max-width: 1080px;
   height: 800px;
-  background-image: url(KakaoTalk_20250909_120453842.jpg);
+  background-image: url(../image/photo_second.jpg);
   background-size: cover;
   background-position: 50% 50%;
   margin: 0 auto;
@@ -54,7 +54,7 @@
   width: 100%;
   max-width: 1080px;
   height: 800px;
-  background-image: url(KakaoTalk_20250909_120453842_02.jpg);
+  background-image: url(../image/photo_third.jpg);
   background-size: cover;
   background-position: 50% 50%;
   margin: 0 auto;

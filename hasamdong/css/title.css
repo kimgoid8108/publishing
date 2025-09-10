@@ -1,0 +1,33 @@
+.title {
+  width: 100%;
+  height: 900px;
+}
+
+.title > .text-box {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.title > .text-box > h2 {
+  width: 100%;
+  height: 164px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "wanju";
+  text-align: center;
+}
+
+.title > .text-box > h2 > .number {
+  font-family: "IbmPlexSans";
+  font-weight: 600;
+  background-image: url(../image/bg_main_board_title.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.title > .text-box > h2 > .special {
+  font-size: 45px;
+  color: #c2161b;
+}

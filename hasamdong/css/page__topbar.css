@@ -1,0 +1,82 @@
+.page__topbar {
+  width: 100%;
+  max-width: 95%;
+  height: 100px;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.page__topbar > .page__logo {
+  width: 170px;
+  height: 60px;
+  display: flex;
+}
+
+.page__topbar > .page__logo > img {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+.page__topbar > .first__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  font-family: "Wanju";
+  line-height: 150%;
+  padding: 0px 0px 0px 200px;
+  font-size: 18px;
+}
+
+.page__topbar > .second__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.page__topbar > .second__menu > .btn-login {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  padding: 0px 0px;
+  cursor: pointer;
+  line-height: 30px;
+}
+
+.page__topbar > .second__menu > .guide {
+  display: flex;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.page__topbar > .second__menu > .guide:hover {
+  background-color: black;
+  color: white;
+}
+
+.page__topbar > .second__menu > .btn-menu {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+
+.page__topbar > .second__menu > .btn-menu > i {
+  font-size: 30px;
+  cursor: pointer;
+}
