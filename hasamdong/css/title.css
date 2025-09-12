@@ -117,7 +117,6 @@ a:hover > .second__img {
   transform: scale(1.05);
 }
 
-/*세번째 이미지*/
 .third__img {
   width: 370px;
   height: 370px;
@@ -132,7 +131,6 @@ a:hover > .third__img {
   transform: scale(1.05);
 }
 
-/*텍스트*/
 .explanation {
   display: flex;
   flex-direction: column;
@@ -151,4 +149,59 @@ a:hover > .third__img {
   font-size: 16px;
   color: #666;
   line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .title > .text-box > h2 {
+    font-size: 28px;
+    height: auto;
+    line-height: 1.3;
+  }
+
+  .list-news {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .news-box {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .first__img,
+  .second__img,
+  .third__img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .explanation {
+    width: 100%;
+    padding-top: 15px;
+    gap: 8px;
+  }
+
+  .explanation > .main__text {
+    font-size: 18px;
+  }
+
+  .explanation > .sub__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .board-menu {
+    justify-content: center;
+    padding-right: 0;
+    font-size: 16px;
+  }
 }

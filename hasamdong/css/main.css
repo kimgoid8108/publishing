@@ -4,10 +4,87 @@ main {
 }
 
 .page__background {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.page__background > .background-video {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  display: block;
 }
-.page__background > .background-video {
-  display: flex;
-  margin-bottom: 20px;
+
+.brand-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 350px;
+  width: 132px;
+  height: 42px;
+  font-size: 13px;
+  padding: 8px 16px;
+  background: #d92323;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  text-align: center;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 40px;
+  right: 180px;
+  width: 132px;
+  height: 42px;
+  font-size: 13px;
+  padding: 12px 16px;
+  background: #d92323;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .brand-btn {
+    right: 150px;
+    bottom: 30px;
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+  .page-num {
+    right: 50px;
+    bottom: 30px;
+    width: 80px;
+    height: 28px;
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-btn {
+    right: 20px;
+    bottom: 20px;
+    width: 100px;
+    height: 24px;
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  .page-num {
+    right: 100px;
+    bottom: 20px;
+    width: 70px;
+    height: 24px;
+    font-size: 11px;
+    padding: 5px 10px;
+  }
 }

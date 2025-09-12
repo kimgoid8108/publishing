@@ -15,6 +15,10 @@
   width: 170px;
   height: 60px;
   display: flex;
+  background-image: url(../image/하삼동\ 로고.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .page__topbar > .page__logo > img {
@@ -79,4 +83,39 @@
 .page__topbar > .second__menu > .btn-menu > i {
   font-size: 30px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .page__topbar {
+    height: 70px;
+    padding: 0 15px;
+  }
+
+  .page__topbar > .page__logo {
+    width: 100px;
+    height: 35px;
+  }
+
+  .page__topbar > .first__menu {
+    display: none;
+  }
+
+  .page__topbar > .second__menu {
+    gap: 15px;
+  }
+  .page__topbar > .second__menu > a {
+    display: none;
+  }
+
+  .page__topbar > .second__menu > .btn-login {
+    display: none;
+  }
+
+  .page__topbar > .second__menu > .guide {
+    display: none;
+  }
+
+  .page__topbar > .second__menu > .btn-menu > i {
+    font-size: 24px;
+  }
 }

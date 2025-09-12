@@ -1,12 +1,12 @@
 .introduce {
   width: 100%;
   height: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .background__img {
   width: 100%;
-  height: 970px;
+  height: 950px;
   background-image: url(../image/하삼동화면.jpg);
   background-position: center;
   background-size: cover;
@@ -56,4 +56,70 @@
 
 .nav-btn {
   display: flex;
+  width: 100%;
+  height: 60px;
+  max-width: 200px;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translateY(150%);
+}
+
+.nav-btn > .btn-L {
+  width: 60px;
+  height: 60px;
+  background-color: #c2161b;
+  border-radius: 9999px;
+  opacity: 0.4;
+  background-image: url(../image/화살표.svg);
+  background-position: center;
+  background-size: 18px 38px;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+
+.nav-btn > .btn-R {
+  width: 60px;
+  height: 60px;
+  background-color: #c2161b;
+  border-radius: 9999px;
+  background-image: url(../image/화살표.svg);
+  background-position: center;
+  background-size: 18px 38px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .background__img {
+    height: 600px; /* 모바일에서 높이 줄이기 */
+    gap: 15px;
+  }
+
+  .background__img > .hasamdong__img {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .background__img > .hasamdong__name {
+    max-width: 300px;
+    height: 80px;
+  }
+
+  .background__img > .hasamdong__text {
+    font-size: 40px; /* 텍스트 크기 줄이기 */
+    line-height: 1.2;
+    margin-top: 20px;
+  }
+
+  .nav-btn {
+    max-width: 150px;
+    transform: translateY(120%);
+  }
+
+  .nav-btn > .btn-L,
+  .nav-btn > .btn-R {
+    width: 50px;
+    height: 50px;
+    background-size: 15px 30px;
+  }
 }

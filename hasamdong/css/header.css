@@ -12,3 +12,13 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
+@media (max-width: 768px) {
+  header {
+    height: 70px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
